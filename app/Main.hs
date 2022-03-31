@@ -1,6 +1,7 @@
 module Main where
 
-import Lib
+import Lib (initFunc)
 
 main :: IO ()
-main = someFunc
+main = 
+    initFunc
